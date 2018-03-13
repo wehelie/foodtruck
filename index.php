@@ -28,7 +28,7 @@
     </div>
     <!-- Menu Modal -->
     <div id="menu" class="w3-modal">
-      <form action="calculations.php">
+      <form action="calculations.php" method="POST">
         <div class="w3-modal-content w3-animate-zoom">
           <div class="w3-container w3-black w3-display-container">
             <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
@@ -59,7 +59,7 @@
             <h5><input type="checkbox" name="order[]" value="drink">Fountain Drink <i>12 oz. Coke, Diet Coke, Grape Fanta, Iced Tea, Rootbeer </i><b>$1.99</b></h5>
             <h5><input type="checkbox" name="order[]" value="lemon">Fresh Lemonade <i>16 oz. fresh squeezed lemonade </i><b>$2.50</b></h5>
           </div>
-          <div align="center"><button class="w3-button w3-black">Submit</button></div><br />
+          <div align="center"><input class="w3-button w3-black" type='submit' value='submit' name='submit'></div><br />
         </div>
       </form>
     </div>
