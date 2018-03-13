@@ -10,7 +10,8 @@ define('PRICE', [
     'meat' => 2.50, 
     'fries' => 1.75, 
     'shake' => 3.75, 
-    'drink' => 1.99]);
+    'drink' => 1.99
+]);
 
 class App
 {
