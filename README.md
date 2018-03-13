@@ -4,4 +4,4 @@
 #### Team Members:
 
 
-![]('images/view.png);
+![]('images/view.png)
