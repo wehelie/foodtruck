@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Testing</title>
+  <title>burger bliss</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,15 +13,20 @@
     <div class="bgimg w3-display-container w3-text-white">
       <div class="w3-display-middle w3-jumbo">
         <p>burger bliss</p>
+        <div class="social w3-center">
+          <i class="fab fa-twitter fa-xs"></i>
+          <i class="fab fa-facebook fa-xs"></i>
+          <i class="fab fa-instagram fa-xs"></i>
+          <i class="fab fa-yelp fa-xs"></i>
+      </div>
       </div>
       <div class="w3-display-topleft w3-container w3-xlarge">
-        <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
-        <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">team</button></p>
+        <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black"><i class="fas fa-bars"></i> menu</button></p>
+        <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black"><i class="fas fa-users"></i> team</button></p>
       </div>
 
     </div>
     <!-- Menu Modal -->
-    <i class="fas fa-user"></i>
     <div id="menu" class="w3-modal">
       <form action="calculations.php">
         <div class="w3-modal-content w3-animate-zoom">
@@ -67,12 +72,18 @@
         </div>
         <div class="w3-container">
           <form action="/action_page.php" target="_blank">
-            <p class="w3-xlarge">Burger Bliss was created by these talented individuals:</p>
-            <p class="w3-large"><a href="http://ladan.icoolshow.net/"/>Layth</p>
+            <!-- <p class="w3-xlarge">Burger Bliss was created by these talented individuals:</p>
+            <p class="w3-large"><a href="http://ladan.icoolshow.net/"/>Layth</a></p>
             <p class="w3-large"><a href="http://dcoulter.icoolshow.net/"/>Danielle</p>
             <p class="w3-large"><a href="http://yhussein.icoolshow.net/"/>Yahya</p>
-            <p class="w3-large"><a href="http://eneville.icoolshow.net/"/>Erik</p>
+            <p class="w3-large"><a href="http://eneville.icoolshow.net/"/>Erik</p> -->
 
+            <ul class="w3-ul">
+              <li><a href="http://ladan.icoolshow.net/"/>Layth</a></li>
+              <li><a href="http://dcoulter.icoolshow.net/"/>Danielle</a></li>
+              <li><a href="http://yhussein.icoolshow.net/"/>Yahya</a></li>
+              <li><a href="http://eneville.icoolshow.net/"/>Erik</a></li>
+            </ul>
           </form>
         </div>
       </div>
