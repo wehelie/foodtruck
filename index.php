@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html>
+  <head>
   <title>Testing</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <style>
-  body,h1,h5 {font-family: "Raleway", sans-serif}
-  body, html {height: 100%}
-  .bgimg {
-  background-image: url(images/chef.jpg);
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-  }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
   <body>
     <div class="bgimg w3-display-container w3-text-white">
       <div class="w3-display-middle w3-jumbo">
@@ -27,6 +21,7 @@
 
     </div>
     <!-- Menu Modal -->
+    <i class="fas fa-user"></i>
     <div id="menu" class="w3-modal">
       <form action="calculations.php">
         <div class="w3-modal-content w3-animate-zoom">
@@ -73,10 +68,10 @@
         <div class="w3-container">
           <form action="/action_page.php" target="_blank">
             <p class="w3-xlarge">Burger Bliss was created by these talented individuals:</p>
-            <p class="w3-large"><a href="http://ladan.icoolshow.net/"/>Adan, Layth</p>
-            <p class="w3-large"><a href="http://dcoulter.icoolshow.net/"/>Coulter, Danielle</p>
-            <p class="w3-large"><a href="http://yhussein.icoolshow.net/"/>Hussein, Yahya</p>
-            <p class="w3-large"><a href="http://eneville.icoolshow.net/"/>Neville, Erik</p>
+            <p class="w3-large"><a href="http://ladan.icoolshow.net/"/>Layth</p>
+            <p class="w3-large"><a href="http://dcoulter.icoolshow.net/"/>Danielle</p>
+            <p class="w3-large"><a href="http://yhussein.icoolshow.net/"/>Yahya</p>
+            <p class="w3-large"><a href="http://eneville.icoolshow.net/"/>Erik</p>
 
           </form>
         </div>
