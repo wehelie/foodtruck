@@ -1,4 +1,14 @@
 <?php 
+/*
+ * Class:       AD 320 WI 18
+ * Assignment:  Final Group Project
+ * Teammates:   Adan, Layth
+                Coulter, Danielle
+                Hussein, Yahya
+                Neville, Erik
+ * Title:       index.java 
+ * Due Date:    March 21, 2018
+ */
 include 'header.php';
 ?>
     <div class="bgimg w3-display-container w3-text-white">
