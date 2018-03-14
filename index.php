@@ -70,10 +70,10 @@ include 'header.php';
             <p class="w3-large"><a href="http://eneville.icoolshow.net/"/>Erik</p> -->
 
             <ul class="w3-ul">
-              <li><a href="http://ladan.icoolshow.net/"/>Layth</a></li>
-              <li><a href="http://dcoulter.icoolshow.net/"/>Danielle</a></li>
-              <li><a href="http://yhussein.icoolshow.net/"/>Yahya</a></li>
-              <li><a href="http://eneville.icoolshow.net/"/>Erik</a></li>
+              <li><a href="http://ladan.icoolshow.net/"/>Adan, Layth</li>
+              <li><a href="http://dcoulter.icoolshow.net/"/>Coulter, Danielle</li>
+              <li><a href="http://yhussein.icoolshow.net/"/>Hussein, Yahya</li>
+              <li><a href="http://eneville.icoolshow.net/"/>Neville, Erik</li>
             </ul>
           </form>
         <?php include 'footer.php'; ?>
