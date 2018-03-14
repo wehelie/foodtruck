@@ -6,7 +6,7 @@
                 Coulter, Danielle
                 Hussein, Yahya
                 Neville, Erik
- * Title:       index.java 
+ * Title:       index.php 
  * Due Date:    March 21, 2018
  */
 include 'header.php';
