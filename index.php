@@ -1,4 +1,14 @@
 <?php 
+/*
+ * Class:       AD 320 WI 18
+ * Assignment:  Final Group Project
+ * Teammates:   Adan, Layth
+                Coulter, Danielle
+                Hussein, Yahya
+                Neville, Erik
+ * Title:       index.php 
+ * Due Date:    March 21, 2018
+ */
 include 'header.php';
 ?>
     <div class="bgimg w3-display-container w3-text-white">
@@ -70,10 +80,10 @@ include 'header.php';
             <p class="w3-large"><a href="http://eneville.icoolshow.net/"/>Erik</p> -->
 
             <ul class="w3-ul">
-              <li><a href="http://ladan.icoolshow.net/"/>Layth</a></li>
-              <li><a href="http://dcoulter.icoolshow.net/"/>Danielle</a></li>
-              <li><a href="http://yhussein.icoolshow.net/"/>Yahya</a></li>
-              <li><a href="http://eneville.icoolshow.net/"/>Erik</a></li>
+              <li><a href="http://ladan.icoolshow.net/"/>Adan, Layth</li>
+              <li><a href="http://dcoulter.icoolshow.net/"/>Coulter, Danielle</li>
+              <li><a href="http://yhussein.icoolshow.net/"/>Hussein, Yahya</li>
+              <li><a href="http://eneville.icoolshow.net/"/>Neville, Erik</li>
             </ul>
           </form>
         <?php include 'footer.php'; ?>
